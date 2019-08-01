@@ -13,34 +13,35 @@
 }
 
 .one{
-    animation-name: color;
-    animation-duration: 1.5s;
-    animation-iteration-count:infinite;
+    animation: color 1s infinite;
+    /* animation-delay: 0s 4s; */
 }
 
 .two{
-    animation-name: color;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count:infinite;
+    animation: color 1s infinite;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 1s 3s; */
 }
 
 .three{
-    animation-name: color;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count:infinite;
+    animation: color 1s infinite;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 3s ; */
 }
 
 .four{
-    animation-name: color;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count:infinite;
+    animation: color 1s infinite;
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 1s; */
 }
 
 
 @keyframes color{
-    from{ background-color: gray }
-    to{ background-color:lightgray}
+    from{
+        background-color: gray;
+        transform: scale(1);
+    }
+    to{ background-color:lightgray;
+        transform: scale(1.5);
+    }
 }
