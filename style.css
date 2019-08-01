@@ -10,34 +10,30 @@
     background-color: gray;
     border-radius: 50%;
     display: inline-block;
+
 }
 
 .one{
-    animation: color 1s infinite;
+    animation: color 1.5s infinite;
     animation-delay: 0s;
-    animation-timing-function: linear;
+    animation-timing-function: cubic-bezier(1, 0, 0, 0);
 }
 
 .two{
-    animation: color 1s infinite;
+    animation: color 1.5s infinite;
     /* animation-timing-function: ease-in-out; */
-    animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-delay: .5s;
+    animation-timing-function: cubic-bezier(0, 1, 0, 0);
 }
 
 .three{
-    animation: color 1s infinite;
-    /* animation-timing-function: ease-in-out; */
-    animation-delay: 2s ;
-    animation-timing-function: linear;
+    animation: color 1.5s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s ;
+    animation-timing-function: cubic-bezier(0, 0, 1, 0);
 }
 
-.four{
-    animation: color 1s infinite;
-    /* animation-timing-function: ease-in-out; */
-    animation-delay: 3s;
-    animation-timing-function: linear;
-}
+
 
 
 @keyframes color{
