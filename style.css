@@ -14,22 +14,28 @@
 
 .one{
     animation-name: color;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
 }
 
 .two{
     animation-name: color;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
 }
 
 .three{
     animation-name: color;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
 }
 
 .four{
     animation-name: color;
-    animation-duration: 4s;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count:infinite;
 }
 
