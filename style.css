@@ -19,17 +19,18 @@
 
 .two{
     animation-name: color;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 .three{
     animation-name: color;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 .four{
     animation-name: color;
-    animation-duration: 5s;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
 }
 
 
