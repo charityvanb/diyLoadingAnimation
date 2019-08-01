@@ -1,7 +1,22 @@
+.dotrow {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
 .dot {
-    height: 1em;
-    width: 1em;
+    height: 1.2em;
+    width: 1.2em;
+    margin: .6em;
     background-color: gray;
     border-radius: 50%;
     display: inline-block;
+    animation-name: color;
+    animation-duration: 3s;
+}
+
+
+
+@keyframes color{
+    from{ background-color: gray }
+    to{ background-color: blue}
 }
